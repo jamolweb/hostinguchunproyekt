@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.container header .header-main .content, .container header .header-main, .container header .navbar .navbar-content .navbar-login .button {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container header .navbar .navbar-content {
+  -moz-column-gap: 100px;
+       column-gap: 100px;
+  padding: 0 75px;
+}
+.container header .navbar .navbar-content .navbar-login .button {
+  width: 130px;
+  justify-content: space-evenly;
+  height: 40px;
+}
+.container header .header-main {
+  flex-direction: column;
+}
+.container header .header-main .content {
+  flex-direction: column;
+}
+.container header .header-main .content h1 {
+  font-size: 60px;
+}
+.container header .header-main .content .buttons button {
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+}
+.container header .header-main .logotips {
+  -moz-column-gap: 75px;
+       column-gap: 75px;
+}
+
+.TheBestReference .cards {
+  flex-wrap: wrap;
+}
+.TheBestReference .cards .cord {
+  width: 306.011px;
+  padding: 20px 20px;
+}
+.TheBestReference .cards .cord .content {
+  padding: 20px 20px;
+}
+
+.Pricing .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Pricing .cards .card {
+  width: 300px;
+  padding: 20px 20px;
+  margin-top: 60px;
+}
+
+.item {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.item span {
+  margin-top: 20px;
+}
+
+.footer {
+  flex-wrap: wrap;
+  margin-top: 140px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}/*# sourceMappingURL=style.css.map */
